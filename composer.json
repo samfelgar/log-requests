@@ -1,0 +1,28 @@
+{
+    "name": "samfelgar/log-requests",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Samfelgar\\LogRequests\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samuel Felipe",
+            "email": "samfelgar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
+        "illuminate/http": "^8.73",
+        "illuminate/routing": "^8.73",
+        "illuminate/contracts": "^8.73"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
