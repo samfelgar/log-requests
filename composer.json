@@ -20,6 +20,13 @@
         "illuminate/routing": "^8.73",
         "illuminate/contracts": "^8.73"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Samfelgar\\LogRequests\\Providers\\LogRequestServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
