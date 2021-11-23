@@ -10,7 +10,7 @@ class LogRequestServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '../../config/log-requests.php', 'log-requests');
+        $this->mergeConfigFrom(__DIR__ . '/../../config/log-requests.php', 'log-requests');
     }
 
     public function boot()
@@ -27,7 +27,7 @@ class LogRequestServiceProvider extends ServiceProvider
         }
 
         $this->publishes([
-            __DIR__ . '../../config/log-requests.php' => $this->app->configPath('log-requests.php'),
+            __DIR__ . '/../../config/log-requests.php' => $this->app->configPath('log-requests.php'),
         ]);
     }
 
